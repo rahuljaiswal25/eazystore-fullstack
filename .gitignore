@@ -1,0 +1,23 @@
+# Frontend dependencies and build output
+eazystore-ui/node_modules/
+eazystore-ui/dist/
+
+# Frontend environment files
+eazystore-ui/.env
+eazystore-ui/.env.*
+!eazystore-ui/.env.example
+
+# Backend build output and IDE files
+eazystore/target/
+eazystore/.idea/
+eazystore/*.iml
+
+# Logs and crash dumps
+eazystore/logs/
+eazystore/hs_err_pid*.log
+
+# Local configuration and secrets
+**/application-local.properties
+
+
+!eazystore/HELP.md

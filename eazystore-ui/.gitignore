@@ -1,0 +1,40 @@
+
+# React frontend dependencies and builds
+/eazystore-ui/node_modules/
+/eazystore-ui/dist/
+/eazystore-ui/dist-ssr/
+
+# Frontend environment secrets
+/eazystore-ui/.env
+/eazystore-ui/.env.*
+!/eazystore-ui/.env.example
+
+# Java / Maven
+/eazystore/target/
+/eazystore/*.class
+/eazystore/*.jar
+/eazystore/*.war
+
+# IDE files
+/eazystore/.idea/
+/eazystore/*.iml
+/.vscode/
+
+# Backend logs and crash reports
+/eazystore/logs/
+/eazystore/*.log
+/eazystore/hs_err_pid*.log
+
+# Private backend configuration
+/eazystore/src/main/resources/stripe.properties
+/eazystore/src/main/resources/application-prod.properties
+/eazystore/src/main/resources/application-qa.properties
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
